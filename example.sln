@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.21005.1
+VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "example", "example\example.csproj", "{599BBABE-92E6-4814-9A42-E709E2BADD61}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "muparser_csharp", "..\muparser_csharp\muparser_csharp\muparser_csharp.csproj", "{384E279C-6C24-4286-B5B6-0E2DE6EE441D}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0F85A0DD-EC22-438C-A097-49C0819ED53E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "muparser_csharp", "muparser_csharp\muparser_csharp.csproj", "{384E279C-6C24-4286-B5B6-0E2DE6EE441D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -24,5 +26,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{599BBABE-92E6-4814-9A42-E709E2BADD61} = {0F85A0DD-EC22-438C-A097-49C0819ED53E}
+		{384E279C-6C24-4286-B5B6-0E2DE6EE441D} = {0F85A0DD-EC22-438C-A097-49C0819ED53E}
 	EndGlobalSection
 EndGlobal
