@@ -1,0 +1,5 @@
+*.suo
+example/bin/Debug/*
+*/obj/*
+*.pdb
+*.cache
